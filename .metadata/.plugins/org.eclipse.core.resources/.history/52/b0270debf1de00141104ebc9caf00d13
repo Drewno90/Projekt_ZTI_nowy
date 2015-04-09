@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="common" template="/WEB-INF/layout/classic.jsp">
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+	</definition>
+	
+	<definition name="login" extends="common">
+		<put-attribute name="title" value="Login" />
+		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+	</definition>
+
+	<definition name="index" extends="common">
+		<put-attribute name="title" value="Aplikacja" />
+		<put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
+	</definition>
+
+	<definition name="admin" extends="common">
+		<put-attribute name="title" value="Admin" />
+		<put-attribute name="body" value="/WEB-INF/jsp/admin.jsp" />
+	</definition>
+	
+	<definition name="users" extends="common">
+		<put-attribute name="title" value="Users" />
+		<put-attribute name="body" value="/WEB-INF/jsp/users.jsp" />
+	</definition>
+
+	<definition name="zasoby" extends="common">
+		<put-attribute name="title" value="Zasoby" />
+		<put-attribute name="body" value="/WEB-INF/jsp/zasoby.jsp" />
+	</definition>
+
+	<definition name="harmonogram" extends="common">
+		<put-attribute name="title" value="Harmonogram" />
+		<put-attribute name="body" value="/WEB-INF/jsp/harmonogram.jsp" />
+	</definition>
+	
+	<definition name="raporty" extends="common">
+		<put-attribute name="title" value="Raporty" />
+		<put-attribute name="body" value="/WEB-INF/jsp/raporty.jsp" />
+	</definition>
+	
+	<definition name="pliki" extends="common">
+		<put-attribute name="title" value="Pliki" />
+		<put-attribute name="body" value="/WEB-INF/jsp/pliki.jsp" />
+	</definition>
+	
+	<definition name="kontakt" extends="common">
+		<put-attribute name="title" value="Kontakt" />
+		<put-attribute name="body" value="/WEB-INF/jsp/kontakt.jsp" />
+	</definition>
+	
+	<definition name="trzy" extends="common">
+		<put-attribute name="title" value="trzy" />
+		<put-attribute name="body" value="/WEB-INF/jsp/trzy.jsp" />
+	</definition>
+	
+	<definition name="cztery" extends="common">
+		<put-attribute name="title" value="cztery" />
+		<put-attribute name="body" value="/WEB-INF/jsp/cztery.jsp" />
+	</definition>
+
+
+</tiles-definitions>

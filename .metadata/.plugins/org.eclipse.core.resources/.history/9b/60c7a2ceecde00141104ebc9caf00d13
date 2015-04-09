@@ -1,0 +1,22 @@
+package daw.projekt.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import daw.projekt.entity.User;
+import daw.projekt.repository.UserRepository;
+
+@Controller
+public class UserController {
+	
+	@RequestMapping("/blotnix")
+	public String liga_mistrzow(){
+		return "blotnix";
+	}
+	 
+
+}

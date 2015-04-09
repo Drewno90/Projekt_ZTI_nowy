@@ -1,0 +1,16 @@
+package daw.projekt.service;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import daw.projekt.repository.UserRepository;
+
+@Service
+public class UserService {
+
+		@Autowired
+		private UserRepository userRepository;
+		
+		public List<User> findAll() {
+			return userRepository.findAll();
+		}
+}

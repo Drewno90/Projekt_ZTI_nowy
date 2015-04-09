@@ -1,0 +1,5 @@
+INDEX VERSION 1.127
+C:\Users\Drewno\work\Projekt_ZTI_nowy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1186339335.index
+\Aplikacja\src\main\java
+C:\Users\Drewno\work\Projekt_ZTI_nowy\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2837842989.index
+\Aplikacja\src\main\java
