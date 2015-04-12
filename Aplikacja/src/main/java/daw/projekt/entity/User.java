@@ -23,6 +23,9 @@ public class User {
 	
 	private String password;
 	
+	private boolean enabled;
+	
+
 	@ManyToMany
 	@JoinTable
 	private List<Role> roles;
@@ -30,7 +33,14 @@ public class User {
 	@OneToMany(mappedBy="user")
 	private List<Blog> blogs;
 	
-	
+	public boolean isEnabled() {
+		return enabled;
+	}
+
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
+	}
+
 	public List<Role> getRoles() {
 		return roles;
 	}

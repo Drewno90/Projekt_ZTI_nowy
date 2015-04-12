@@ -1,11 +1,8 @@
 INDEX VERSION 1.3+C:\Users\Drewno\work\Projekt_ZTI_nowy\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2837842989.index
 17744421.index
-1186339335.index
 1186339335.index
 517351509.index
 2075445609.index
 3300426183.index
 890464373.index
 458963189.index
-2837842989.index

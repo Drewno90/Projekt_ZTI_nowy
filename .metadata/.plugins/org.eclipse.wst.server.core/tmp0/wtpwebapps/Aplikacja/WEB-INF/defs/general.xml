@@ -10,11 +10,13 @@
 	<definition name="login" extends="common">
 		<put-attribute name="title" value="Login" />
 		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+		<put-attribute name="current" value="login" />
 	</definition>
 
 	<definition name="index" extends="common">
 		<put-attribute name="title" value="Aplikacja" />
 		<put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
+		<put-attribute name="current" value="index" />
 	</definition>
 
 	<definition name="admin" extends="common">
@@ -25,13 +27,21 @@
 	<definition name="users" extends="common">
 		<put-attribute name="title" value="Users" />
 		<put-attribute name="body" value="/WEB-INF/jsp/users.jsp" />
+		<put-attribute name="current" value="users"/>
 	</definition>
 
 	<definition name="user-detail" extends="common">
 		<put-attribute name="title" value="Users detail" />
 		<put-attribute name="body" value="/WEB-INF/jsp/user-detail.jsp" />
+		<put-attribute name="current" value="users"/>
 	</definition>
-
+	
+	<definition name="user-register" extends="common">
+		<put-attribute name="title" value="Users registration" />
+		<put-attribute name="body" value="/WEB-INF/jsp/user-register.jsp" />
+		<put-attribute name="current" value="user-register"/>
+	</definition>
+	
 	<definition name="zasoby" extends="common">
 		<put-attribute name="title" value="Zasoby" />
 		<put-attribute name="body" value="/WEB-INF/jsp/zasoby.jsp" />

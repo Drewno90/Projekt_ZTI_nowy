@@ -11,6 +11,7 @@
 	<properties>
 		<org.springframework.version>4.0.5.RELEASE</org.springframework.version>
 		<apache.tiles>3.0.4</apache.tiles>
+		<spring.security.version>3.2.3.RELEASE</spring.security.version>
 	</properties>
 
 	<dependencies>
@@ -205,19 +206,19 @@
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-config</artifactId>
-			<version>3.2.5.RELEASE</version>
+			<version>${spring.security.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-web</artifactId>
-			<version>3.2.5.RELEASE</version>
+			<version>${spring.security.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-parent</artifactId>
-			<version>3.0.8.RELEASE</version>
-			<type>pom</type>
+			<artifactId>spring-security-taglibs</artifactId>
+			<version>${spring.security.version}</version>
+
 		</dependency>
 	</dependencies>
 

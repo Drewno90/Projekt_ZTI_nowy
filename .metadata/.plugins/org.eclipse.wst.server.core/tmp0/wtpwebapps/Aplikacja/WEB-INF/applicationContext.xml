@@ -35,7 +35,6 @@
 			<bean class="org.hibernate.jpa.HibernatePersistenceProvider" />
 		</property>
 	</bean>
-	<jpa:repositories base-package="daw.projekt.repository"></jpa:repositories>
 
 	<tx:annotation-driven transaction-manager="transactionManager" />
 
@@ -44,7 +43,8 @@
 		<property name="dataSource" ref="dataSource" />
 	</bean>
 
-	
+		<jpa:repositories base-package="daw.projekt.repository"/>
+	<import resource="security.xml"/>
 
 
 </beans>
