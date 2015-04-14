@@ -3,12 +3,16 @@ package daw.projekt.entity;
 
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
+import javax.validation.constraints.Size;
+
+import org.hibernate.validator.constraints.Email;
 
 @Entity
 public class User {
@@ -17,10 +21,14 @@ public class User {
 	@GeneratedValue
 	private Integer id;
 	
+	@Size(min=3, message="Nazwa musi zawierac conajmniej 3 znaki!")
 	private String name;
 	
+	@Size(min=1, message="Niprawidłowy adres email!")
+	@Email(message="Niprawidłowy adres email!")
 	private String email;
 	
+	@Size(min=5, message="Haslo musi zawierac conajmniej 3 znaki!")
 	private String password;
 	
 	private boolean enabled;
@@ -30,7 +38,7 @@ public class User {
 	@JoinTable
 	private List<Role> roles;
 	
-	@OneToMany(mappedBy="user")
+	@OneToMany(mappedBy="user", cascade=CascadeType.REMOVE)
 	private List<Blog> blogs;
 	
 	public boolean isEnabled() {

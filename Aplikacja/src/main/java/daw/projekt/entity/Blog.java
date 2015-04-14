@@ -2,6 +2,7 @@ package daw.projekt.entity;
 
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -9,6 +10,9 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import javax.validation.constraints.Size;
+
+import org.hibernate.validator.constraints.URL;
 
 @Entity
 public class Blog {
@@ -17,15 +21,18 @@ public class Blog {
 	@GeneratedValue
 	private Integer id;
 
+	@Size(min=1, message="Nieprawidłowy URL!")
+	@URL(message="Nieprawidłowy URL!")
 	private String url;
 	
+	@Size(min=1, message="Nazwa musi zawierać conajmniej jeden znak")
 	private String name;
 	
 	@ManyToOne
 	@JoinColumn(name="user_id")
 	private User user;
 	
-	@OneToMany(mappedBy="blog")
+	@OneToMany(mappedBy="blog", cascade=CascadeType.REMOVE)
 	private List<Item> items;
 
 
