@@ -22,7 +22,7 @@ public class Blog {
 	private Integer id;
 
 	@Size(min=1, message="Nieprawidłowy URL!")
-	@URL(message="Nieprawidłowy URL!")
+	//@URL(message="Nieprawidłowy URL!")
 	private String url;
 	
 	@Size(min=1, message="Nazwa musi zawierać conajmniej jeden znak")

@@ -28,7 +28,7 @@ public class User {
 	@Email(message="Niprawidłowy adres email!")
 	private String email;
 	
-	@Size(min=5, message="Haslo musi zawierac conajmniej 3 znaki!")
+	@Size(min=5, message="Haslo musi zawierac conajmniej 5 znaki!")
 	private String password;
 	
 	private boolean enabled;

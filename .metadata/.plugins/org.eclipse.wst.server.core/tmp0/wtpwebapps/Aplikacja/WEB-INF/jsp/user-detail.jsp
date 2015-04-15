@@ -6,7 +6,7 @@
 
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  New Blog
+  Nowy Komentarz
 </button>
 
 <form:form commandName="blog" cssClass="form-horizontal">
@@ -16,7 +16,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">New Blog</h4>
+        <h4 class="modal-title" id="myModalLabel">Nowy Komentarz</h4>
       </div>
       <div class="modal-body">
         	<div class="form-group">
@@ -27,7 +27,7 @@
 				</div>
 	  		</div>
 	  	 	<div class="form-group">
-				<label for="name" class="col-sm-2 control-label">URL:</label>
+				<label for="name" class="col-sm-2 control-label">Komentarz:</label>
 				<div class="col-sm-10">
 				<form:input path="url" cssClass="form-control" />
 				<form:errors path="url" />

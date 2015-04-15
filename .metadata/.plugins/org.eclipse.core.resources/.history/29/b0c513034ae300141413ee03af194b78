@@ -1,0 +1,5 @@
+package daw.projekt.entity;
+
+public class Task {
+
+}
