@@ -1,0 +1,40 @@
+package daw.projekt.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.method.P;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.stereotype.Service;
+
+import daw.projekt.entity.Task;
+import daw.projekt.entity.User;
+import daw.projekt.repository.TaskRepository;
+import daw.projekt.repository.UserRepository;
+
+
+@Service
+public class TaskService {
+
+	@Autowired
+	private TaskRepository taskRepository;
+	
+	@Autowired
+	private UserRepository userRepository;
+	
+	
+	public void save(Task task, String name) {
+		User user = userRepository.findByName(name);
+		task.setUser(user);
+		taskRepository.save(task);
+	}
+
+	@PreAuthorize("#task.user.name == authentication.name or hasRole('ROLE_ADMIN')")
+	public void delete(@P("task")Task task) {
+		taskRepository.delete(task);
+	}
+
+
+	public Task findOne(int id) {
+
+		return taskRepository.findOne(id);
+	}
+}

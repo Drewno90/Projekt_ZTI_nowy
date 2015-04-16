@@ -1,0 +1,5 @@
+package daw.projekt.repository;
+
+public class TaskRepository {
+
+}

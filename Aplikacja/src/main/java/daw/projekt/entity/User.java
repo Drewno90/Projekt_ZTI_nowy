@@ -4,6 +4,7 @@ package daw.projekt.entity;
 import java.util.List;
 
 import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -22,6 +23,7 @@ public class User {
 	private Integer id;
 	
 	@Size(min=3, message="Nazwa musi zawierac conajmniej 3 znaki!")
+	@Column(unique=true)
 	private String name;
 	
 	@Size(min=1, message="Niprawidłowy adres email!")

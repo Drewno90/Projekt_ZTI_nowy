@@ -9,6 +9,5 @@
 		<class>daw.projekt.entity.Role</class>
 		<class>daw.projekt.entity.Blog</class>
 		<class>daw.projekt.entity.Item</class>
-		<class>daw.projekt.entity.Task</class>
 	</persistence-unit>
 </persistence>

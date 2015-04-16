@@ -1,0 +1,5 @@
+package daw.projekt.service;
+
+public class TaskService {
+
+}

@@ -1,0 +1,10 @@
+package daw.projekt.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import daw.projekt.entity.Task;
+
+public interface TaskRepository extends JpaRepository<Task, Integer>{
+
+
+}
