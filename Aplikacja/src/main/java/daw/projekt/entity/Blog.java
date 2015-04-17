@@ -7,7 +7,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.validation.constraints.Size;
@@ -22,7 +21,7 @@ public class Blog {
 	private Integer id;
 
 	@Size(min=1, message="Nieprawidłowy URL!")
-	//@URL(message="Nieprawidłowy URL!")
+	@URL(message="Nieprawidłowy URL!")
 	private String url;
 	
 	@Size(min=1, message="Nazwa musi zawierać conajmniej jeden znak")

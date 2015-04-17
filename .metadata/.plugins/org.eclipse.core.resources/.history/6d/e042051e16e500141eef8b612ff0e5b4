@@ -1,0 +1,5 @@
+package daw.projekt.annotation;
+
+public class UniqueUsernameValidator {
+
+}

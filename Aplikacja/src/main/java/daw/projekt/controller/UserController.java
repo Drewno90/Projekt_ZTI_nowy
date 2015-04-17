@@ -1,8 +1,6 @@
 package daw.projekt.controller;
 
 import java.security.Principal;
-import java.util.List;
-
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,8 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import daw.projekt.entity.Blog;
-import daw.projekt.entity.User;
-import daw.projekt.repository.UserRepository;
 import daw.projekt.service.BlogService;
 import daw.projekt.service.UserService;
 

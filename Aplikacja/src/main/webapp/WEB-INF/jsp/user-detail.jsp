@@ -31,7 +31,7 @@ $(document).ready(function(){
  	<h1>${blog.name}</h1>
 	<p>
 	
-	<a href="<spring:url value="/blog/remove/${blog.id}.html" />" class="btn btn-danger triggerRemove">remove comment</a>
+	<a href="<spring:url value="/blog/remove/${blog.id}.html" />" class="btn btn-danger triggerRemove">remove blog</a>
 	
 	${blog.url}</p>
 	<table class="table table-bordered table-hover table-striped">

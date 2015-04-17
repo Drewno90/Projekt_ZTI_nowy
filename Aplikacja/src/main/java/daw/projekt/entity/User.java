@@ -15,6 +15,8 @@ import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.Email;
 
+import daw.projekt.annotation.UniqueUsername;
+
 @Entity
 public class User {
 
@@ -24,6 +26,7 @@ public class User {
 	
 	@Size(min=3, message="Nazwa musi zawierac conajmniej 3 znaki!")
 	@Column(unique=true)
+	@UniqueUsername(message="Taka nazwa uzytkownika juz istnieje!")
 	private String name;
 	
 	@Size(min=1, message="Niprawidłowy adres email!")

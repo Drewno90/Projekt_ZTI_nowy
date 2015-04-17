@@ -5,9 +5,368 @@
       <description>Pipes Output</description>
       <link>http://pipes.yahoo.com/pipes/pipe.info?_id=790c1cc25610e6b571d4857eaeb44fa4</link>
       <atom:link rel="next" href="http://pipes.yahoo.com/pipes/pipe.run?_id=790c1cc25610e6b571d4857eaeb44fa4&amp;_render=rss&amp;page=2" />
-      <pubDate>Thu, 16 Apr 2015 08:47:42 +0000</pubDate>
+      <pubDate>Fri, 17 Apr 2015 16:08:33 +0000</pubDate>
       <generator>http://pipes.yahoo.com/pipes/</generator>
       <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/jbossbuzz" /><feedburner:info uri="jbossbuzz" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+         <title>This week in JBoss (17th April 2015) - Releases, Releases, Releases!</title>
+         <link>http://feedproxy.google.com/~r/jbossbuzz/~3/plyMSt3adsc/this-week-in-jboss-17th-april-2015-releases-releases-releases</link>
+         <description>&lt;div class="jive-rendered-content"&gt;&lt;p&gt;Another busy week is almost over. Time to wrap it up with the weekly editorial post. Get a &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="https://twitter.com/search?q=%23coffee%2B%2B%2B&amp;amp;src=typd"&gt;#coffee+++&lt;/a&gt; and enjoy the weekly recap.&lt;/p&gt;&lt;p style="min-height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;Microservices and Container Still All Over The Place&lt;/h1&gt;&lt;p&gt;Mark Little had a few conversations with different people recently on the subject of &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/transactions_and_microservices0"&gt;Transactions and Microservices&lt;/a&gt; &lt;span style="font-size:10pt;line-height:1.5em;"&gt;and he put down his thoughts. While Arun added another angle to the discussion with the &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/microservice_design_patterns"&gt;Microservice Design Patterns &lt;/a&gt;&lt;/span&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;that he published. And even I got caught by the Container and Microservices hype and talked to Alex Soto in a new edition of the &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/developer_interview_di17_with_alex_soto_alexsotob_arquillian_docker_and_testing_in_containers"&gt;Developer Interview (#DI17) series about Arquillian, Docker and Testing In Containers&lt;/a&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;I gave a talk at the Virtual Java User Group about how to &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.eisele.net/2015/04/architecting-large-enterprise-java-projects.html"&gt;architect large enterprise java projects&lt;/a&gt; which also talks a lot about all of this.The Keycloak team was playing around with &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/keycloak_on_kubernetes_with_openshift_3"&gt;OpenShift v3 and made it run there with Kubernetes&lt;/a&gt;.&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style="min-height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;DevNation Is Getting Hot&lt;/h1&gt;&lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://images.engage.redhat.com/EloquaImages/clients/RedHat/%7B4df908d9-becb-4bce-a05b-b67b674ce306%7D_devnation_emailheader_anopensourceconference.png"&gt;&lt;img alt="%7B4df908d9-becb-4bce-a05b-b67b674ce306%7D_devnation_emailheader_anopensourceconference.png" class="jive-image image-1" src="http://images.engage.redhat.com/EloquaImages/clients/RedHat/%7B4df908d9-becb-4bce-a05b-b67b674ce306%7D_devnation_emailheader_anopensourceconference.png" style="height:95px;width:620px;float:right;"/&gt;&lt;/a&gt;We're just a few days away from having the complete schedule posted and the activities are winding up. A&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.devnation.org/?p=53"&gt; first introductory interview&lt;/a&gt; with our first keynote speaker, Venkat Subramaniam was published this week. If this isn't exciting, there's still some time left to get an early bird discount on DevNation tickets.&lt;/p&gt;&lt;p&gt;At DevNation, you&amp;#8217;ll find a mix of: Technical sessions, Hands-on labs, Birds-of-a-feather panels specifically for developers, Late-night hacking events, A shared Summit-DevNation session track, Access to select Summit events.&lt;/p&gt;&lt;p&gt;Register on &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.devnation.org/"&gt;http://www.devnation.org&lt;/a&gt;&lt;/p&gt;&lt;p style="min-height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;Data Virtualization 6.1 Getting Started&lt;/h1&gt;&lt;p&gt;Last Month JBoss Data Virtualization 6.1 was released.&amp;nbsp; It is a released packed with goodness around three major areas: Big Data, Cloud and Development/Deployment Improvements.&amp;nbsp; To get you started with an initial JDV video series, Blaine Mincey, Senior Solutions Architect, walks you through a "&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/data_virtualization_6_1_getting_started_videos"&gt;Soups to Nuts" 3 part series&lt;/a&gt;. Eric D. Schabell adds even more with his "Taste of Training" series which covers &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/red_hat_taste_of_training_managing_virtual_databases_with_jdv"&gt;Managing Virtual Databases with JDV&lt;/a&gt;.&lt;/p&gt;&lt;p style="min-height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;Red Hat JBoss BRMS &amp;amp; JBoss BPM Suite 6.1 Released&lt;/h1&gt;&lt;p&gt;Yesterday it has arrived! The official release of JBoss BRMS and JBoss BPM Suite 6.1 has brought to you an array of interesting and new functionality. You can find the products on the Customer Portal for downloading and using today. Before you get started with all of the content and assets that we have available right from the launch, &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/what_s_new_in_red_hat_jboss_brms_jboss_bpm_suite_6_1_release"&gt;Eric D. Schabell provides a comprehensive overview&lt;/a&gt;. &lt;/p&gt;&lt;p style="min-height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;Virtual JBoss User Group News&lt;/h1&gt;&lt;p&gt;Paul and I are running the Virtual JBoss User Group and we aim for delivering interesting and high profile talks around all kinds of JBoss projects and technologies. And we have some cool shows upcoming next. &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.meetup.com/JBoss-User-Group-Worldwide/"&gt;Make sure to join our meetup group and don't miss any news anymore&lt;/a&gt;.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/how_to_contribute_to_jboss_wildfly_hacking_on_the_next_java_ee_version"&gt;How to contribute to JBoss WildFly? Hacking on the next Java EE Version! | Planet JBoss Developer&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.meetup.com/JBoss-User-Group-Worldwide/events/219852806/"&gt;Building Cross Platform Applications with Cordova and AeroGear&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style="min-height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;This And That&lt;/h1&gt;&lt;p&gt;Some competitive information about how &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/details_of_red_hat_jboss_eap_superior_clustering_compared_to_ibm_websphere_application_server"&gt;Red Hat JBoss EAP has superior clustering compared to IBM WebSphere Application Server&lt;/a&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;. The &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/aerogear_tours_germany"&gt;AeroGear Team tours Germany&lt;/a&gt;. And the &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/red_hat_jboss_enterprise_application_platform_6_2_achieves_highest_level_common_criteria_certification"&gt;Red Hat JBoss Enterprise Application Platform 6.2 Achieves Highest Level Common Criteria Certification&lt;/a&gt;&lt;/span&gt;&lt;span style="font-size:10pt;line-height:1.5em;"&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p style="min-height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h1&gt;Releases&lt;/h1&gt;&lt;p&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/teiid_8_11_alpha2_released"&gt;Teiid 8.11 Alpha2 Released &lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/immutant_2_the_deuce_beta3_released"&gt;Immutant 2 (The Deuce) Beta3 Released &lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/hawkular_monitor_agent"&gt;Hawkular-Monitor Agent &lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/alert_notifiers_for_mobile_devices"&gt;Alert notifiers for mobile devices &lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/hibernate_orm_4_3_9_final_4_2_18_final_and_4_2_19_final_released"&gt;Hibernate ORM 4.3.9.Final, 4.2.18.Final, and 4.2.19.Final Released &lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/forge_2_16_0_final_spear_is_here"&gt;Forge 2.16.0.Final (Spear) is here&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/arquillian_core_1_1_8_final_released"&gt;Arquillian Core 1.1.8.Final Released&lt;/a&gt;&lt;/p&gt;&lt;p style="min-height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Stay up to date with everything JBoss on a daily base by subscribing to &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="https://twitter.com/jbossdeveloper"&gt;@jbossdeveloper&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/plyMSt3adsc" height="1" width="1" alt=""/&gt;</description>
+         <author>Markus Eisele</author>
+         <guid isPermaLink="false" />
+         <pubDate>Fri, 17 Apr 2015 10:14:00 +0000</pubDate>
+      <feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2015/04/17/this-week-in-jboss-17th-april-2015-releases-releases-releases</feedburner:origLink></item>
+      <item>
+         <title>JBoss Tools Integration Stack - Luna integration tooling for BRMS/BPMS, Data Virt, SOA 5.x + Early Access Fuse and SwitchYard</title>
+         <link>http://feedproxy.google.com/~r/jbossbuzz/~3/lAUnsWmqYvk/2015-04-16-JBTIS-421-Final.html</link>
+         <description>&lt;div&gt;&lt;div id="preamble"&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;&lt;strong&gt;The Luna tooling train continues! - Adding JBoss Business Process and Rules development tooling to JBoss Data Virtualization and the SOA 5.x suite plus updates to the early access components.&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img src="http://tools.jboss.org/blog/images/jbosstools-jbdevstudio-blog-header.png" alt="jbosstools jbdevstudio blog header"/&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="what-s-an-integration-stack"&gt;&lt;a rel="nofollow" class="anchor" href="#what-s-an-integration-stack"&gt;&lt;/a&gt;What’s an Integration Stack?&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;&lt;strong&gt;JBoss Tools Integration Stack 4.2.1.Final / JBoss Developer Studio Integration Stack 8.0.1.GA&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The Integration Stack for JBoss Tools Developer Studio is a set of plugins for Eclipse that provides integration tooling for the following frameworks.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="jboss-business-process-and-rules-development"&gt;&lt;a rel="nofollow" class="anchor" href="#jboss-business-process-and-rules-development"&gt;&lt;/a&gt;JBoss Business Process and Rules Development&lt;/h3&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features/bpel.html"&gt;BPEL Designer&lt;/a&gt; - Orchestrating your business processes.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features/bpmn2.html"&gt;BPMN2 Modeler&lt;/a&gt; - A graphical modeling tool which allows creation and editing of Business Process Modeling Notation diagrams using graphiti.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features/drools.html"&gt;Drools&lt;/a&gt; - A Business Logic integration Platform which provides a unified and integrated platform for Rules, Workflow and Event Processing.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features/jbpm.html"&gt;jBPM&lt;/a&gt; - A flexible Business Process Management (BPM) suite.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="jboss-data-virtualization-development"&gt;&lt;a rel="nofollow" class="anchor" href="#jboss-data-virtualization-development"&gt;&lt;/a&gt;JBoss Data Virtualization Development&lt;/h3&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features/modeshape.html"&gt;Modeshape&lt;/a&gt; - A distributed, hierarchical, transactional and consistent data store with support for queries, full-text search, events, versioning, references, and flexible and dynamic schemas. It is very fast, highly available, extremely scalable, and it is 100% open source.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features/teiiddesigner.html"&gt;Teiid Designer&lt;/a&gt; - A visual tool that enables rapid, model-driven definition, integration, management and testing of data services without programming using the Teiid runtime framework.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="jboss-integration-and-soa-development"&gt;&lt;a rel="nofollow" class="anchor" href="#jboss-integration-and-soa-development"&gt;&lt;/a&gt;JBoss Integration and SOA Development&lt;/h3&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;&lt;strong&gt;Note - the SOA Development tooling category has both released and early access components.  Consequently, you will see it in both the release install dialog and the early access install dialog.&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;All of the Business Process and Rules Development plugins, plus…​&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features/apachecamel.html"&gt;Fuse Apache Camel Tooling&lt;/a&gt; - A graphical tool for integrating software components that works with Apache ServiceMix, Apache ActiveMQ, Apache Camel and the FuseSource distributions.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features/switchyard.html"&gt;SwitchYard&lt;/a&gt; - A lightweight service delivery framework providing full lifecycle support for developing, deploying, and managing service-oriented applications.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="soa-5-x-development"&gt;&lt;a rel="nofollow" class="anchor" href="#soa-5-x-development"&gt;&lt;/a&gt;SOA 5.x Development&lt;/h3&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://www.jboss.org/jbossesb"&gt;JBoss ESB&lt;/a&gt; - An enterprise service bus for connecting enterprise applications and services.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="http://docs.jboss.com/jbpm/v3.2/userguide/html_single/"&gt;jBPM3&lt;/a&gt; - A flexible Business Process Management (BPM) Suite - JBoss Enterprise SOA Platform 5.3.x compatible version.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;&lt;strong&gt;All of these components have been verified to work with the same dependencies as JBoss Tools 4.2 and Developer Studio 8.&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="what-s-been-updated"&gt;&lt;a rel="nofollow" class="anchor" href="#what-s-been-updated"&gt;&lt;/a&gt;What’s Been Updated?&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Updates have been made to the Business Process tooling (BPMN2 Modeler), Fuse Tooling and SwitchYard.  See the &lt;a rel="nofollow" target="_blank" href="https://access.redhat.com/documentation/en-US/Red_Hat_JBoss_Developer_Studio_Integration_Stack/8.0/html/8.0.1_Release_Notes/index.html"&gt;JBDSIS 8.0.1 Release Notes&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="released-tooling-highlights"&gt;&lt;a rel="nofollow" class="anchor" href="#released-tooling-highlights"&gt;&lt;/a&gt;Released Tooling Highlights&lt;/h3&gt;
+      &lt;div class="sect3"&gt;
+      &lt;h4 id="bpmn2-modeler-highlights"&gt;&lt;a rel="nofollow" class="anchor" href="#bpmn2-modeler-highlights"&gt;&lt;/a&gt;BPMN2 Modeler Highlights&lt;/h4&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://www.eclipse.org/bpmn2-modeler/whatsnew/whatsnew-1.1.2.php"&gt;BPMN2 Modeler 1.1.2 - New and Noteworthy&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="early-access-tooling-highlights"&gt;&lt;a rel="nofollow" class="anchor" href="#early-access-tooling-highlights"&gt;&lt;/a&gt;Early Access Tooling Highlights&lt;/h3&gt;
+      &lt;div class="sect3"&gt;
+      &lt;h4 id="fuse-tooling-highlights"&gt;&lt;a rel="nofollow" class="anchor" href="#fuse-tooling-highlights"&gt;&lt;/a&gt;Fuse Tooling Highlights&lt;/h4&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1285"&gt;FUSETOOLS-1285&lt;/a&gt;: Broken parsing and missing configuration of exchange pattern for ToDefiniton endpoint&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1271"&gt;FUSETOOLS-1271&lt;/a&gt;: adding component connectors via context menu broken&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1269"&gt;FUSETOOLS-1269&lt;/a&gt;: Node Context Menu&amp;gt;Add option does not include the Components drawer items&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1268"&gt;FUSETOOLS-1268&lt;/a&gt;: Cannot view or edit file node in Properties editor after dragging a Filesystem component onto the canvas&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1267"&gt;FUSETOOLS-1267&lt;/a&gt;: Properties editor for File endpoint converts relative paths to absolute paths so files are not read&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1264"&gt;FUSETOOLS-1264&lt;/a&gt;: JMX Node in servers view doesn’t work if server has secured JMX access via credentials&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1261"&gt;FUSETOOLS-1261&lt;/a&gt;: Move connection between components cause problem&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1260"&gt;FUSETOOLS-1260&lt;/a&gt;: Cannot run Fuse server with alternate JRE&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1250"&gt;FUSETOOLS-1250&lt;/a&gt;: The IDE slows down when a fuse project is deployed&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1248"&gt;FUSETOOLS-1248&lt;/a&gt;: Debugger step over resets changed variable value and continues along original path&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1246"&gt;FUSETOOLS-1246&lt;/a&gt;: New Server Wizard bug with JMX Bundles plugin only&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1218"&gt;FUSETOOLS-1218&lt;/a&gt;: Cryptic error message displayed when trying to connect to Fuse 6.2 server&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1214"&gt;FUSETOOLS-1214&lt;/a&gt;: Run Configurations dialog shows launch config types for server adapters for Karaf, SMX, Fuse and Fabric8 which partially don’t work&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1211"&gt;FUSETOOLS-1211&lt;/a&gt;: Adding another route to a Fuse Project doesn’t work properly&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1173"&gt;FUSETOOLS-1173&lt;/a&gt;: Servers have too many jars on launching classpath&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1158"&gt;FUSETOOLS-1158&lt;/a&gt;: fix ugly title when debugging&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1148"&gt;FUSETOOLS-1148&lt;/a&gt;: Exception when browsing a BrokerNode in JMX View&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1138"&gt;FUSETOOLS-1138&lt;/a&gt;: NPE in karaf server core support after removing a deployed project&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1123"&gt;FUSETOOLS-1123&lt;/a&gt;: context id is removed on save&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1100"&gt;FUSETOOLS-1100&lt;/a&gt;: New Fuse project does not have properly set-up build-path&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1085"&gt;FUSETOOLS-1085&lt;/a&gt;: An endpoint is lost after saving&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/FUSETOOLS-1076"&gt;FUSETOOLS-1076&lt;/a&gt;: New Server Runtime Wizard - Finish button error&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Also see &lt;a rel="nofollow" target="_blank" href="http://lhein.blogspot.com/"&gt;Lars Heinemann’s Blog&lt;/a&gt; for more Fuse Tooling insights.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect3"&gt;
+      &lt;h4 id="switchyard-highlights"&gt;&lt;a rel="nofollow" class="anchor" href="#switchyard-highlights"&gt;&lt;/a&gt;SwitchYard Highlights&lt;/h4&gt;
+      &lt;div class="ulist"&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/SWITCHYARD-2591"&gt;SWITCHYARD-2591&lt;/a&gt;: Cannot set options for SwitchYard Service Task in BPMN2 editor&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/SWITCHYARD-2518"&gt;SWITCHYARD-2518&lt;/a&gt;: Cannot remove output/fault type from ESB interface&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/SWITCHYARD-2515"&gt;SWITCHYARD-2515&lt;/a&gt;: [Eclipse] Deadlock in UI, eclipse frozen&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/SWITCHYARD-2514"&gt;SWITCHYARD-2514&lt;/a&gt;: Deployment issues with JBoss Tools 4.2.2.Final&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/SWITCHYARD-2508"&gt;SWITCHYARD-2508&lt;/a&gt;: New SwitchYard Project - update values&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/SWITCHYARD-2502"&gt;SWITCHYARD-2502&lt;/a&gt;: Various icons when deploying a project&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/SWITCHYARD-2501"&gt;SWITCHYARD-2501&lt;/a&gt;: Cannot edit delay between polls in camel-rss-binding&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/SWITCHYARD-2491"&gt;SWITCHYARD-2491&lt;/a&gt;: Cannot set java operation selector using browse button&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/SWITCHYARD-2436"&gt;SWITCHYARD-2436&lt;/a&gt;: Unable to change SwitchYard project settings in property sheet&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/SWITCHYARD-2424"&gt;SWITCHYARD-2424&lt;/a&gt;: Debugger does not work on Luna (JBDS 8)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/SWITCHYARD-2296"&gt;SWITCHYARD-2296&lt;/a&gt;: WSDL import not recognised when selecting contract interface in SY tooling&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/SWITCHYARD-2273"&gt;SWITCHYARD-2273&lt;/a&gt;: Cannot deploy switchyard project to Fuse server from IDE&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/jira/browse/SWITCHYARD-1869"&gt;SWITCHYARD-1869&lt;/a&gt;: Editor doesn’t check if defined classes exist&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect3"&gt;
+      &lt;h4 id="the-jboss-tools-website-features-tab"&gt;&lt;a rel="nofollow" class="anchor" href="#the-jboss-tools-website-features-tab"&gt;&lt;/a&gt;The JBoss Tools website features tab&lt;/h4&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Don’t miss the &lt;a rel="nofollow" target="_blank" href="http://tools.jboss.org/features"&gt;Features tab&lt;/a&gt; for up to date information on your favorite Integration Stack components.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect1"&gt;
+      &lt;h2 id="installation"&gt;&lt;a rel="nofollow" class="anchor" href="#installation"&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div class="sectionbody"&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="if-you-already-have-jbdsis-8-0-0-installed"&gt;&lt;a rel="nofollow" class="anchor" href="#if-you-already-have-jbdsis-8-0-0-installed"&gt;&lt;/a&gt;If you already have JBDSIS 8.0.0 installed…​&lt;/h3&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Simply start jbdevstudio or eclipse-with-jbds, then:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Select Help &amp;gt; Check for Updates&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Select the components you’d like to install from the available updates.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="sect2"&gt;
+      &lt;h3 id="if-you-d-like-a-fresh-install"&gt;&lt;a rel="nofollow" class="anchor" href="#if-you-d-like-a-fresh-install"&gt;&lt;/a&gt;If you’d like a fresh install…​&lt;/h3&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;To install the Integration Stack tools, first install JBoss Developer Studio from the &lt;a rel="nofollow" target="_blank" href="https://www.jboss.org/products/devstudio.html"&gt;all-in-one installer&lt;/a&gt;, bundled and configured out of the box with everything you need to get started. Alternatively, if you already have eclipse-jee-luna installed, you can install &lt;a rel="nofollow" target="_blank" href="https://marketplace.eclipse.org/content/red-hat-jboss-developer-studio-luna"&gt;JBoss Developer Studio&lt;/a&gt; or &lt;a rel="nofollow" target="_blank" href="https://marketplace.eclipse.org/content/jboss-tools-luna"&gt;JBoss Tools&lt;/a&gt; from the Eclipse Marketplace via &lt;strong&gt;Help &amp;gt; Eclipse Marketplace…​&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img src="http://tools.jboss.org/blog/images/jbtis/jbtis-421-b1.png" alt="Eclipse Marketplace - JBDS"/&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Once Developer Studio is installed, restart Eclipse and select the Software/Update tab in the JBoss Central view.  The current 8.0.1.GA integration stack is available automatically with the released &lt;strong&gt;JBoss Data Virtualization Development&lt;/strong&gt; tooling.  The remainder of the integration tooling is available as &lt;strong&gt;Early Access&lt;/strong&gt; so you must check the &lt;strong&gt;Enable Early Access&lt;/strong&gt; checkbox in the installer window in order to install.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img src="http://tools.jboss.org/blog/images/jbtis/jbtis-421-b2.png" alt="JBoss Central - JBoss Developer Studio Integration Stack"/&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img src="http://tools.jboss.org/blog/images/jbtis/jbtis-421-b3.png" alt="JBoss Central Early Access - JBoss Developer Studio Integration Stack"/&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The standard p2 installer is available for JBoss Developer Studio Integration Stack.  Simply start jbdevstudio or eclipse-with-jbds, then:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="listingblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre class="prettyprint highlight"&gt;&lt;code&gt; Help &amp;gt; Install New Software...
+       Add...
+       - use this for &amp;apos;Location:&amp;apos; for the production integration stack:
+         https://devstudio.redhat.com/updates/8.0/integration-stack/
+      
+       - use this for &amp;apos;Location:&amp;apos; for the early-access-components integration stack:
+         https://devstudio.redhat.com/updates/8.0/integration-stack/earlyaccess/&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The community JBoss Tools Integration Stack installation is easy as well.  If you already have eclipse-jee-luna installed, install &lt;a rel="nofollow" target="_blank" href="https://marketplace.eclipse.org/content/jboss-tools-luna"&gt;JBoss Tools&lt;/a&gt; from the Eclipse Marketplace via Help &amp;gt; Eclipse Marketplace…​&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img src="http://tools.jboss.org/blog/images/jbtis/jbtis-421-b4.png" alt="Eclipse Marketplace - JBoss Tools"/&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Once JBoss Tools is installed, restart Eclipse and select the Software/Update tab in the JBoss Central view.  The current 4.2.1.Final integration stack is available automatically with the released tooling.  In a manner similar to devstudio, the remainder of the integration tooling is available as &amp;quot;Early Access&amp;quot; so you must check the &amp;quot;Enable Early Access&amp;quot; checkbox in the installer window in order to install.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Select the items you’d like to install:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="imageblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;img src="http://tools.jboss.org/blog/images/jbtis/jbtis-421-b5.png" alt="JBoss Central Early Access - JBoss Tools Integration Stack"/&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;The standard p2 installer is available for JBoss Tools Integration Stack.  Simply start eclipse-with-jbt, then:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="listingblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre class="prettyprint highlight"&gt;&lt;code&gt; Help &amp;gt; Install New Software...
+       Add...
+       - use this for &amp;apos;Location:&amp;apos; for the released-components integration stack:
+         https://devstudio.redhat.com/updates/8.0/integration-stack/
+      
+       - use this for &amp;apos;Location:&amp;apos; for the early access integration stack:
+         https://devstudio.redhat.com/updates/8.0/integration-stack/earlyaccess/&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Note: If you installed into your own Eclipse you should bump up the launch resource parameters:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="listingblock"&gt;
+      &lt;div class="content"&gt;
+      &lt;pre class="prettyprint highlight"&gt;&lt;code class="language-xml"&gt;--launcher.XXMaxPermSize 256m --launcher.appendVmargs -vmargs -Dosgi.requiredJavaVersion=1.6 -XX:MaxPermSize=256m -Xms512m -Xmx1024m&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;&lt;strong&gt;Give it a try!&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="paragraph"&gt;
+      &lt;p&gt;Paul Leacu.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/lAUnsWmqYvk" height="1" width="1" alt=""/&gt;</description>
+         <author>pleacu</author>
+         <guid isPermaLink="false">http://tools.jboss.org/blog/2015-04-16-JBTIS-421-Final.html</guid>
+         <pubDate>Thu, 16 Apr 2015 00:00:00 +0000</pubDate>
+      <feedburner:origLink>http://tools.jboss.org/blog/2015-04-16-JBTIS-421-Final.html</feedburner:origLink></item>
+      <item>
          <title>This week in JBoss (10th April 2015) - Microservices are coming!</title>
          <link>http://feedproxy.google.com/~r/jbossbuzz/~3/OaUiiJ_gIEQ/this-week-in-jboss-10th-april-2015-microservices-are-coming</link>
          <description>&lt;div class="jive-rendered-content"&gt;&lt;p&gt;This week has seen a lot of activity around DevOps and microservices. I'll shamelessly start with plugging a few things I've written on the subject, such as how you should look at microservices and Linux containers (such as Docker) for the &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/the_unit_of_failure_of_microservices"&gt;natural unit of failure&lt;/a&gt; within a microservices environment:&lt;/p&gt;&lt;p style="min-height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;"&lt;em&gt;If you are building multiple microservices, or using them from other groups and organisations, within your applications or composite service(s), then do some thinking about how they are related and if they should fail as a unit then pull them together into a single image.&lt;/em&gt;"&lt;/p&gt;&lt;p style="min-height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;I also &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/containers_required_for_microservices"&gt;wrote an addendum&lt;/a&gt; to that article the other day just to make it clear that whilst containers such as Docker are useful, their neither necessary nor sufficient for microservices, especially in the Java world:&lt;/p&gt;&lt;p style="min-height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;"&lt;em&gt;If you're thinking about developing microservices in Java then you don't have to worry about using Linux containers: your unit of failure is the JVM. Start there and built upward.&lt;/em&gt;"&lt;/p&gt;&lt;p style="min-height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;I also wrote about how &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/handling_state_for_microservices"&gt;state can be handled with microservices&lt;/a&gt;, especially in a DevOps/cloudy environment where Linux containers are used and typically assumed to me immutable. Hopefully people find these articles useful - I certainly found them fun to write. Then in a semi-related article, Eric wrote about &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/docker_how_to_for_jboss_integration_bpm_projects"&gt;Docker and integration/BPM projects&lt;/a&gt; - lots of nice demos there! Everyone is looking at Linux containers/Docker these days, including the Keycloak team where Marko wrote about &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/running_keycloak_cluster_with_docker"&gt;clustering&lt;/a&gt; recently.&lt;/p&gt;&lt;p style="min-height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Now some of our projects and products that are at the forefront of the things we're doing around microservices and DevOps are Fuse, Camel and Fabric8. Christina wrote about how to (lazily) &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/jboss_fuse_tips_offline_repository_in_fuse"&gt;create an offline repository&lt;/a&gt;. Christian took time to write generally about &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/microservices_for_enterprises_part_i"&gt;Enterprises and Microservices&lt;/a&gt; (part 1), but also how to do &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/fuse_fabric_profile_migration_for_continuous_delivery"&gt;continuous delivery&lt;/a&gt; with Fabric8 v1. Claus has written a great "&lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/getting_started_with_jboss_fuse_where_should_i_start"&gt;getting started with Fuse&lt;/a&gt;" article, so check it out if you're new to Fuse. Marek has &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/securing_fuse_applications_and_hawtio_with_keycloak"&gt;written an entry&lt;/a&gt; on securing Fuse and Hawtio applications with Keycloak, which is a critical requirement for enterprise deployments.&lt;/p&gt;&lt;p style="min-height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;In other news &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/building_data_driven_solutions_for_the_internet_of_things"&gt;Kenny mentions&lt;/a&gt; the upcoming Red Hat virtual event Building Data-driven Solutions for the Internet of Things on April 23 at 11 a.m. (EST) / 15:00 (GMT). Sign up now! And the Arquillian and TorqueBox teams release new versions - &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/arquillian_cube_extension_1_0_0_alpha5_released"&gt;1.0.0 Alpha 5&lt;/a&gt; (Docker extensions) and &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://planet.jboss.org/post/torquebox_3_1_2_released"&gt;3.1.2&lt;/a&gt; respectively.&lt;/p&gt;&lt;p style="min-height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;OK that's it for this week! Onward!&lt;/p&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/OaUiiJ_gIEQ" height="1" width="1" alt=""/&gt;</description>
@@ -3001,14 +3360,6 @@
          <guid isPermaLink="false" />
          <pubDate>Thu, 25 Dec 2014 07:12:30 +0000</pubDate>
       <feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2014/12/25/this-week-in-jboss--have-a-very-merry-jboss-christmas</feedburner:origLink></item>
-      <item>
-         <title>This week in JBoss (19th December 2014): The wind down to the holiday break begins</title>
-         <link>http://feedproxy.google.com/~r/jbossbuzz/~3/XHtCO7fHA5Q/this-week-in-jboss-19th-december-2014-the-wind-down-to-the-holiday-break-begins</link>
-         <description>&lt;div class="jive-rendered-content"&gt;&lt;p&gt;Welcome to this week's edition of the JBoss Weekly Editorial.&amp;nbsp; The wind down to the holiday break has already begun but that does not mean we have a quiet week, many within the community have been finalising releases and writing articles in order to give you plenty to do over the upcoming holidays.&amp;nbsp; Join me as we take a spin through this week's community news and events.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Watch and Learn with Arun&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;This week sees Arun publish two long, informative videos on Java EE development, the first video continuing the Hangout sessions with Paul Bakker and the second continuing Arun's Tech Tip series.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;In the first video Arun and Paul discuss how to &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.arungupta.me/2014/12/modular-javaee-applications-osgi-hanginar3/"&gt;develop modular Java EE applications with OSGi&lt;/a&gt;.&amp;nbsp; They cover the importance of building modular Java EE applications, how this can be enabled through the use of OSGi, how to transform an existing Java EE application, how to deploy the application into production and much more.&amp;nbsp; In the second video Arun demonstrates &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.arungupta.me/2014/12/javaee-workflows-openshift-techtip64/"&gt;what is necessary to create a Java EE workflow on OpenShift&lt;/a&gt;.&amp;nbsp; Arun covers how to develop and deploy an application using JBoss Developer Studio, how to set up Test and Production instances, how to run Continuous Integration using Jenkins, finishing with how to run tests within the Test environment and finally promote the application into Production.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Drools and jBPM examples and jBPM Maintenance&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Eric and others from the &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://drools.org/"&gt;Drools and jBPM&lt;/a&gt; teams have been very busy developing suites of &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://www.schabell.org/2014/12/jump-start-rules-events-planning-bpm-today.html"&gt;example projects to help get you started with rules, events, planning and BPM projects&lt;/a&gt;.&amp;nbsp; These projects are tied together in two suites, providing a logical order in which to learn, with many of the examples being updated over the last few weeks to provide a better experience to those of us running within a Windows environment.&amp;nbsp; Once you have your jBPM project up and running you will then want to check out Maciej's article in which he &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://mswiderski.blogspot.ca/2014/12/keep-your-jbpm-environment-healthy.html"&gt;explains some of the regular tasks that an administrator needs to be aware of in order to maintain a healthy environment&lt;/a&gt;.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Merry Christmas from the KeyCloak team&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;This has &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.keycloak.org/2014/12/16/merry-christmas-from-the-keycloak-team/"&gt;been a big year for the KeyCloak team&lt;/a&gt; with the release of their first alpha at the beginning of the year and the release of their first stable release towards the end of the year.&amp;nbsp; Next year appears to be just as ambitious with their current road map including Custom User Profiles, Two-Factor Authentication, SMS integration, OpenID Connect dynamic registration and many more.&amp;nbsp; This is definitely a project to watch in 2015!&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Infinispan Remote Events and Certification&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://infinispan.org/"&gt;Infinispan&lt;/a&gt; team are finishing the year with the conclusion of their &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.infinispan.org/2014/12/hot-rod-remote-events-4-clustering-and.html"&gt;"Hot Rod Remote Events"&lt;/a&gt; series.&amp;nbsp; In their last post of the series they discuss how remote events are delivered in a clustered environment and how to handle failures so that failover does not result in a loss of events.&amp;nbsp; If you are interested in Infinispan then this series will provide a great deal of insight into the support of remote events and is well worth catching up on.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The Infinispan team have also announced that their Infinispan 7.0.2.Final release includes a nice present, the &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.infinispan.org/2014/12/infinispan-702final-is-certified-jsr.html"&gt; first version of infinispan-jcache that has been certified as compliant with JSR-107&lt;/a&gt;.&amp;nbsp; This now allows applications to take advantage of the standard Java API used for caching temporary java objects in memory.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Testing Mobile Devices in JBoss Tools&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;With the explosion of mobile devices, especially within the Android ecosystem, you will find that most device simulators will only contain entries for the more popular devices, missing out less popular or newer models.&amp;nbsp; In order to test the other devices it is often necessary to create a custom device within you simulator, something that is &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://tools.jboss.org/blog/2014-12-19-browsersim-custom-devices-support.html"&gt;very easy to do within the JBoss Tools BrowserSim as Ilya ably demonstrates&lt;/a&gt;.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Java Mission Control and Flight Recorder with WildFly&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Recent releases of the Oracle Java JDKs include a number of tools that allow you to monitor and manage Java applications without the normal performance overhead expected from profiling, relying instead on data that is already collected in support of&amp;nbsp; the normal dynamic optimisations within the JVM.&amp;nbsp; There are a couple of steps that are necessary to enable this within a WildFly or EAP server but don't be concerned as &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.eisele.net/2014/12/java-mission-control-and-flight-recordings-on-wildfly-and-eap.html"&gt;Markus has spent time documenting all that is necessary to take advantage of these tools&lt;/a&gt;.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;Teiid, Twitter and OAuth&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Ramesh has written a &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://teiid.blogspot.ca/2014/12/expose-twitter-data-in-teiid-using.html"&gt;nice article describing how to access Twitter data using Teiid and OAuth&lt;/a&gt;, exposing the information to applications through a Virtual Database.&amp;nbsp; It does assume a reasonable knowledge of Teiid however it also includes a link to their quickstarts if you need a refresher on Teiid's capabilities.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;JBoss Out and About&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Markus Eisele will be talking at &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://blog.eisele.net/2014/12/redhat-jboss-at-ougn-varseminar-2015.html"&gt; OUGN V&amp;aring;rseminar 2015, being held March 12-14 in Oslo, Norway&lt;/a&gt;.&amp;nbsp; He has two sessions confirmed so far, "50 Best Features of Java EE 7" and "How PaaS, IoT and DevOps Change The Way We Develop"&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;h2&gt;New Releases&lt;/h2&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;- The &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://hibernate.org/"&gt;Hibernate&lt;/a&gt; team have announced the release of &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://in.relation.to/Bloggers/AFreshNewMajorReleaseHibernateSearch500Final"&gt;HIbernate Search 5.0.0.Final&lt;/a&gt; and &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://in.relation.to/Bloggers/FirstHibernateOGMReleaseAka41Final"&gt;Hibernate OGM 4.1 Final&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;- The &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://teiid.org/"&gt;Teiid&lt;/a&gt; team have announced the release of &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://teiid.blogspot.ca/2014/12/teiid-designer-90-released.html"&gt;Teiid Designer 9.0&lt;/a&gt; and also their &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://teiid.blogspot.ca/2014/12/teiid-810-alpha2.html"&gt;second alpha of the Teiid 8.10 release&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;- The &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://tools.jboss.org/"&gt;JBoss Tools&lt;/a&gt; team have announced the release of &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://tools.jboss.org/blog/2014-12-15-GA-for-luna.html"&gt;JBoss Tools 4.2.1 and JBoss Developer Studio 8.0.1&lt;/a&gt;.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;That is all for this week!&amp;nbsp; Please join us next week for our last Editorial of the year, authored as usual by Mark Little.&lt;/p&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/XHtCO7fHA5Q" height="1" width="1" alt=""/&gt;</description>
-         <author>Kevin Conner</author>
-         <guid isPermaLink="false" />
-         <pubDate>Fri, 19 Dec 2014 20:46:12 +0000</pubDate>
-      <feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2014/12/19/this-week-in-jboss-19th-december-2014-the-wind-down-to-the-holiday-break-begins</feedburner:origLink></item>
       <item>
          <title>How to add a custom device to BrowserSim?</title>
          <link>http://feedproxy.google.com/~r/jbossbuzz/~3/vmXPcfyWcTc/2014-12-19-browsersim-custom-devices-support.html</link>
@@ -8080,472 +8431,6 @@
          <pubDate>Thu, 24 Apr 2014 00:00:00 +0000</pubDate>
       <feedburner:origLink>http://tools.jboss.org/blog/2014-04-24-html-preview-is-taking-shape.html</feedburner:origLink></item>
       <item>
-         <title>Web resource optimization and Maven Profiles</title>
-         <link>http://feedproxy.google.com/~r/jbossbuzz/~3/idAtCvxWxYU/2014-04-17-web-resource-optimization-and-profiles.html</link>
-         <description>&lt;div&gt;&lt;div id="preamble"&gt;
-      &lt;div class="sectionbody"&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Some time ago, I described how to perform &lt;a rel="nofollow" target="_blank" href="https://community.jboss.org/en/tools/blog/2012/01/17/css-and-js-minification-using-eclipse-maven-and-wro4j"&gt;CSS and JS minification using Eclipse, Maven&lt;/a&gt; and &lt;a rel="nofollow" target="_blank" href="http://code.google.com/p/wro4j/"&gt;WRO4J&lt;/a&gt;, thanks to &lt;a rel="nofollow" target="_blank" href="https://github.com/jbosstools/m2e-wro4j"&gt;m2e-wro4j&lt;/a&gt;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;In this article, we’ll deploy a Java EE 6 Restful application with an HTML5 front-end on a Wildfly application server. We’ll see how, using m2e-wro4j, m2e-wtp and the JBoss Tools Maven Profile Management UI, you can easily switch between minified and regular build profiles.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="sect1"&gt;
-      &lt;h2 id="setup-your-eclipse-based-ide"&gt;&lt;a rel="nofollow" class="anchor" href="#setup-your-eclipse-based-ide"&gt;&lt;/a&gt;Setup your Eclipse-based IDE&lt;/h2&gt;
-      &lt;div class="sectionbody"&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;First you’ll need to install a couple things into an Eclipse Java EE installation. I recommend you use Red Hat JBoss Developer Studio, as it comes with m2e, m2e-wtp, the Maven Profile Manager, the Wildfly server adapter and JBoss Central out-of-the-box, but any Eclipse based installation (Kepler) will do, provided you install the proper plugins.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;table class="tableblock frame-all grid-all spread"&gt;
-      &lt;colgroup&gt;
-      &lt;col style="width:%;"/&gt;
-      &lt;col style="width:%;"/&gt;
-      &lt;/colgroup&gt;
-      &lt;thead&gt;
-      &lt;tr&gt;
-      &lt;th class="tableblock halign-left valign-top"&gt;Red Hat JBoss Developer Studio&lt;/th&gt;
-      &lt;th class="tableblock halign-left valign-top"&gt;Eclipse Java EE&lt;/th&gt;
-      &lt;/tr&gt;
-      &lt;/thead&gt;
-      &lt;tbody&gt;
-      &lt;tr&gt;
-      &lt;td class="tableblock halign-left valign-top"&gt;&lt;div&gt;&lt;div class="ulist"&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;You can download and install Red Hat JBoss Developer Studio 7.1.1 from &lt;a rel="nofollow" target="_blank" href="https://devstudio.jboss.com/earlyaccess/"&gt;here&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;or install it over an existing Eclipse (Kepler) installation from the &lt;a rel="nofollow" target="_blank" href="https://marketplace.eclipse.org/content/red-hat-jboss-developer-studio-kepler"&gt;Eclipse Marketplace&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-      &lt;td class="tableblock halign-left valign-top"&gt;&lt;div&gt;&lt;div class="ulist"&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;Download and install &lt;a rel="nofollow" target="_blank" href="https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2"&gt;Eclipse Java EE Kepler SR2&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;JBoss Tools 4.1.2 can be installed from&lt;/p&gt;
-      &lt;div class="ulist"&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://marketplace.eclipse.org/content/jboss-tools-kepler"&gt;the Eclipse Marketplace&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;or this p2 repository : &lt;a rel="nofollow" target="_blank" href="http://download.jboss.org/jbosstools/updates/stable/kepler/" class="bare"&gt;http://download.jboss.org/jbosstools/updates/stable/kepler/&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Make sure you install the following JBoss Tools features :&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="ulist"&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;Maven Profiles Management&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;JBossAS Server&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;JBoss Central&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;&lt;/div&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;/tbody&gt;
-      &lt;/table&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;m2e-wro4j can then be installed from JBoss Central’s &lt;em&gt;Software/Update&lt;/em&gt; tab :&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="imageblock"&gt;
-      &lt;div class="content"&gt;
-      &lt;img alt="m2e wro4j installation"/&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Alternatively, you can find and install m2e-wro4j from the &lt;a rel="nofollow" target="_blank" href="https://marketplace.eclipse.org/content/m2e-wro4j"&gt;Eclipse Marketplace&lt;/a&gt; too.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Also make sure you have a &lt;a rel="nofollow" target="_blank" href="http://wildfly.org/downloads/"&gt;Wildfly&lt;/a&gt; server installed on your machine.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="sect1"&gt;
-      &lt;h2 id="about-m2e-wro4j"&gt;&lt;a rel="nofollow" class="anchor" href="#about-m2e-wro4j"&gt;&lt;/a&gt;About m2e-wro4j&lt;/h2&gt;
-      &lt;div class="sectionbody"&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;The m2e-wro4j connector allows wro4j-maven-plugin to be invoked when .js, .css, .coffee, .less, .sass, .scss, .json, .template or pom.xml files are modified.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Given the following configuration :&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="listingblock"&gt;
-      &lt;div class="content"&gt;
-      &lt;pre class="prettyprint highlight"&gt;&lt;code class="language-xml"&gt;&amp;lt;plugin&amp;gt;
-          &amp;lt;groupId&amp;gt;ro.isdc.wro4j&amp;lt;/groupId&amp;gt;
-          &amp;lt;artifactId&amp;gt;wro4j-maven-plugin&amp;lt;/artifactId&amp;gt;
-          &amp;lt;version&amp;gt;${version.ro.isdc.wro4j}&amp;lt;/version&amp;gt;
-          &amp;lt;executions&amp;gt;
-              &amp;lt;execution&amp;gt;
-                  &amp;lt;phase&amp;gt;compile&amp;lt;/phase&amp;gt;
-                  &amp;lt;goals&amp;gt;
-                      &amp;lt;goal&amp;gt;run&amp;lt;/goal&amp;gt;
-                  &amp;lt;/goals&amp;gt;
-              &amp;lt;/execution&amp;gt;
-          &amp;lt;/executions&amp;gt;
-          &amp;lt;configuration&amp;gt;
-              &amp;lt;targetGroups&amp;gt;app.min,m.screen.min,d.screen.min&amp;lt;/targetGroups&amp;gt;
-              &amp;lt;cssDestinationFolder&amp;gt;${project.build.directory}/${project.build.finalName}/css/&amp;lt;/cssDestinationFolder&amp;gt;
-              &amp;lt;jsDestinationFolder&amp;gt;${project.build.directory}/${project.build.finalName}/js/&amp;lt;/jsDestinationFolder&amp;gt;
-              &amp;lt;wroManagerFactory&amp;gt;ro.isdc.wro.maven.plugin.manager.factory.ConfigurableWroManagerFactory&amp;lt;/wroManagerFactory&amp;gt;
-          &amp;lt;/configuration&amp;gt;
-      &amp;lt;/plugin&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;When &lt;em&gt;m2e-wtp&lt;/em&gt; is present, &lt;em&gt;m2e-wro4j&lt;/em&gt; automatically translates &lt;em&gt;${project.build.directory}/${project.build.finalName}/*&lt;/em&gt; output directories (the default values used by &lt;em&gt;wro4j-maven-plugin&lt;/em&gt;) to &lt;em&gt;${project.build.directory}/m2e-wtp/web-resources/&lt;/em&gt;. This gives you on-the-fly redeployment of optimized resources on WTP controlled servers.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="admonitionblock note"&gt;
-      &lt;table&gt;
-      &lt;tr&gt;
-      &lt;td class="icon"&gt;
-      &lt;i class="fa icon-note" title="Note"&gt;&lt;/i&gt;
-      &lt;/td&gt;
-      &lt;td class="content"&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;In order to use wro4j-maven-plugin, you need a wro.xxx descriptor (that would be src/main/webapp/WEB-INF/wro.xml by default) and a wro.properties. Read &lt;a rel="nofollow" target="_blank" href="https://code.google.com/p/wro4j/wiki/MavenPlugin" class="bare"&gt;https://code.google.com/p/wro4j/wiki/MavenPlugin&lt;/a&gt; for more details.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;/table&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="sect1"&gt;
-      &lt;h2 id="create-an-html-5-project"&gt;&lt;a rel="nofollow" class="anchor" href="#create-an-html-5-project"&gt;&lt;/a&gt;Create an HTML 5 project&lt;/h2&gt;
-      &lt;div class="sectionbody"&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Now let’s get to work. From the JBoss Central &lt;em&gt;Getting Started&lt;/em&gt; tab, click on the HTML 5 project icon to create a Maven based web application with a JAX-RS back-end and an HTML 5 front-end.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="imageblock"&gt;
-      &lt;div class="content"&gt;
-      &lt;img alt="html5 project jboss central"/&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;I used &lt;strong&gt;kitchensink&lt;/strong&gt; as a project name.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;This project already has some &lt;em&gt;wro4j-maven-plugin&lt;/em&gt; configuration we can use. All we need is to make the switch between regular and minified versions of the build more user friendly.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="sect1"&gt;
-      &lt;h2 id="enable-minification"&gt;&lt;a rel="nofollow" class="anchor" href="#enable-minification"&gt;&lt;/a&gt;Enable minification&lt;/h2&gt;
-      &lt;div class="sectionbody"&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;First, we need to remove one xml snippet from the pom.xml which prevents &lt;em&gt;wro4j-maven-plugin&lt;/em&gt; from running during Eclipse builds, thus cancelling m2e-wro4j’s efforts. Go to the &lt;em&gt;minify&lt;/em&gt; profile and delete :&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="listingblock"&gt;
-      &lt;div class="content"&gt;
-      &lt;pre class="prettyprint highlight"&gt;&lt;code class="language-xml"&gt;&amp;lt;pluginManagement&amp;gt;
-          &amp;lt;plugins&amp;gt;
-              &amp;lt;!--This plugin&amp;apos;s configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.--&amp;gt;
-              &amp;lt;plugin&amp;gt;
-                  &amp;lt;groupId&amp;gt;org.eclipse.m2e&amp;lt;/groupId&amp;gt;
-                  &amp;lt;artifactId&amp;gt;lifecycle-mapping&amp;lt;/artifactId&amp;gt;
-                  &amp;lt;version&amp;gt;${version.org.eclipse.m2e}&amp;lt;/version&amp;gt;
-                  &amp;lt;configuration&amp;gt;
-                      &amp;lt;lifecycleMappingMetadata&amp;gt;
-                          &amp;lt;pluginExecutions&amp;gt;
-                              &amp;lt;pluginExecution&amp;gt;
-                                  &amp;lt;pluginExecutionFilter&amp;gt;
-                                      &amp;lt;groupId&amp;gt;ro.isdc.wro4j&amp;lt;/groupId&amp;gt;
-                                      &amp;lt;artifactId&amp;gt;
-                                          wro4j-maven-plugin
-                                      &amp;lt;/artifactId&amp;gt;
-                                      &amp;lt;version&amp;gt;${version.ro.isdc.wro4j}&amp;lt;/version&amp;gt;
-                                      &amp;lt;goals&amp;gt;
-                                          &amp;lt;goal&amp;gt;run&amp;lt;/goal&amp;gt;
-                                      &amp;lt;/goals&amp;gt;
-                                  &amp;lt;/pluginExecutionFilter&amp;gt;
-                                  &amp;lt;action&amp;gt;
-                                      &amp;lt;ignore&amp;gt;&amp;lt;/ignore&amp;gt;
-                                  &amp;lt;/action&amp;gt;
-                              &amp;lt;/pluginExecution&amp;gt;
-                          &amp;lt;/pluginExecutions&amp;gt;
-                      &amp;lt;/lifecycleMappingMetadata&amp;gt;
-                  &amp;lt;/configuration&amp;gt;
-              &amp;lt;/plugin&amp;gt;
-          &amp;lt;/plugins&amp;gt;
-      &amp;lt;/pluginManagement&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;In order to use the minified versions of javascript and css files in the app, the original index.html file requires you to (un)comment several lines like :&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="listingblock"&gt;
-      &lt;div class="content"&gt;
-      &lt;pre class="prettyprint highlight"&gt;&lt;code class="language-javascript"&gt;yep: {
-          //assign labeled callbacks for later execution after script loads.
-          //we are on mobile device so load appropriate CSS
-          &amp;quot;jqmcss&amp;quot;: &amp;quot;css/jquery.mobile-1.3.1.min.css&amp;quot;,
-          // For minification, uncomment this line
-          //&amp;quot;mcss&amp;quot;: &amp;quot;css/m.screen.min.css&amp;quot;
-          // For minification, comment out this line
-          &amp;quot;mcss&amp;quot;: &amp;quot;css/m.screen.css&amp;quot;
-      },
-      nope: {
-          //we are on desktop
-          // For minification, uncomment this line
-          //&amp;quot;scss&amp;quot;: &amp;quot;css/d.screen.min.css&amp;quot;
-          // For minification, comment out this line
-          &amp;quot;scss&amp;quot;: &amp;quot;css/d.screen.css&amp;quot;
-      },&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;This is clearly not practical if you want to be able to quickly switch between minified and original versions of your files.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Fortunately, we can take advantage of some Maven black magic, also known as &lt;a rel="nofollow" target="_blank" href="http://maven.apache.org/plugins/maven-war-plugin/examples/adding-filtering-webresources.html"&gt;web resource filtering&lt;/a&gt;, to dynamically use the proper (non-minified) version of these files, depending on the profile we’re building with.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;We have 3 things to do :&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="olist arabic"&gt;
-      &lt;ol class="arabic"&gt;
-      &lt;li&gt;
-      &lt;p&gt;define a maven property for the minified file extension currently in use&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;enable web resource filtering in the maven-war-plugin configuration&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;modify index.html so it uses the aforementioned maven property&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ol&gt;
-      &lt;/div&gt;
-      &lt;div class="sect2"&gt;
-      &lt;h3 id="setup-the-maven-property"&gt;&lt;a rel="nofollow" class="anchor" href="#setup-the-maven-property"&gt;&lt;/a&gt;Setup the maven property&lt;/h3&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;In the main &lt;em&gt;&amp;lt;properties&amp;gt;&lt;/em&gt; block, at the top of your pom.xml, add the following property :&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="listingblock"&gt;
-      &lt;div class="content"&gt;
-      &lt;pre class="prettyprint highlight"&gt;&lt;code class="language-xml"&gt;&amp;lt;!-- By default, the original filename will be used --&amp;gt;
-      &amp;lt;min.ext&amp;gt;&amp;lt;/min.ext&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Now add a &lt;em&gt;&amp;lt;properties&amp;gt;&lt;/em&gt; block to the &lt;em&gt;minify&lt;/em&gt; profile :&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="listingblock"&gt;
-      &lt;div class="content"&gt;
-      &lt;pre class="prettyprint highlight"&gt;&lt;code class="language-xml"&gt;&amp;lt;properties&amp;gt;
-        &amp;lt;min.ext&amp;gt;.min&amp;lt;/min.ext&amp;gt;
-      &amp;lt;/properties&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="sect2"&gt;
-      &lt;h3 id="enable-web-resource-filtering"&gt;&lt;a rel="nofollow" class="anchor" href="#enable-web-resource-filtering"&gt;&lt;/a&gt;Enable web resource filtering&lt;/h3&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Modify the default maven-war-plugin configuration to enable filtering on html files :&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="listingblock"&gt;
-      &lt;div class="content"&gt;
-      &lt;pre class="prettyprint highlight"&gt;&lt;code class="language-xml"&gt;&amp;lt;plugin&amp;gt;
-        &amp;lt;artifactId&amp;gt;maven-war-plugin&amp;lt;/artifactId&amp;gt;
-        &amp;lt;version&amp;gt;${version.war.plugin}&amp;lt;/version&amp;gt;
-        &amp;lt;configuration&amp;gt;
-          &amp;lt;!-- Java EE 6 doesn&amp;apos;t require web.xml, Maven needs to catch up! --&amp;gt;
-          &amp;lt;failOnMissingWebXml&amp;gt;false&amp;lt;/failOnMissingWebXml&amp;gt;
-          &amp;lt;webResources&amp;gt;
-            &amp;lt;webResource&amp;gt;
-              &amp;lt;directory&amp;gt;src/main/webapp&amp;lt;/directory&amp;gt;
-              &amp;lt;filtering&amp;gt;true&amp;lt;/filtering&amp;gt;
-              &amp;lt;includes&amp;gt;&amp;lt;include&amp;gt;*.html&amp;lt;/include&amp;gt;&amp;lt;/includes&amp;gt;
-            &amp;lt;/webResource&amp;gt;
-          &amp;lt;/webResources&amp;gt;
-        &amp;lt;/configuration&amp;gt;
-      &amp;lt;/plugin&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="sect2"&gt;
-      &lt;h3 id="use-the-maven-property"&gt;&lt;a rel="nofollow" class="anchor" href="#use-the-maven-property"&gt;&lt;/a&gt;Use the maven property&lt;/h3&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;In &lt;strong&gt;index.html&lt;/strong&gt;, replace at least the following occurrences :&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;table class="tableblock frame-all grid-all" style="width:30%;"&gt;
-      &lt;colgroup&gt;
-      &lt;col style="width:50%;"/&gt;
-      &lt;col style="width:50%;"/&gt;
-      &lt;/colgroup&gt;
-      &lt;thead&gt;
-      &lt;tr&gt;
-      &lt;th class="tableblock halign-left valign-top"&gt;from&lt;/th&gt;
-      &lt;th class="tableblock halign-left valign-top"&gt;to&lt;/th&gt;
-      &lt;/tr&gt;
-      &lt;/thead&gt;
-      &lt;tbody&gt;
-      &lt;tr&gt;
-      &lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;js/app.js&lt;/p&gt;&lt;/td&gt;
-      &lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;js/app${min.ext}.js&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-      &lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;css/m.screen.css&lt;/p&gt;&lt;/td&gt;
-      &lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;css/m.screen{min.ext}.css&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-      &lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;css/d.screen.css&lt;/p&gt;&lt;/td&gt;
-      &lt;td class="tableblock halign-left valign-top"&gt;&lt;p class="tableblock"&gt;css/d.screen{min.ext}.css&lt;/p&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;/tbody&gt;
-      &lt;/table&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;You can also apply similar changes to &lt;em&gt;lodash&lt;/em&gt; and &lt;em&gt;jquery&lt;/em&gt; if you want.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;At this point, you should see the filtered &lt;em&gt;target/m2e-wtp/web-resources/index.html&lt;/em&gt; references the original resources, as the minified extension enabled by default is an empty string.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="sect1"&gt;
-      &lt;h2 id="switch-between-minified-and-regular-profiles"&gt;&lt;a rel="nofollow" class="anchor" href="#switch-between-minified-and-regular-profiles"&gt;&lt;/a&gt;Switch between minified and regular profiles&lt;/h2&gt;
-      &lt;div class="sectionbody"&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Let’s see what happens when enabling the &lt;em&gt;minify&lt;/em&gt; profile. &lt;strong&gt;Ctrl+Alt+P&lt;/strong&gt; is a shortcut bringing up the Maven Profile Management UI. Just check/uncheck profiles to enable/disable them :&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="imageblock"&gt;
-      &lt;div class="content"&gt;
-      &lt;img alt="profile selection"/&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Once the &lt;em&gt;minify&lt;/em&gt; profile is active, you’ll see that :&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="ulist"&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;em&gt;css/m.screen.min.css&lt;/em&gt;, &lt;em&gt;css/d.screen.min.css&lt;/em&gt;,&lt;em&gt;js/app.min.js&lt;/em&gt; are generated under target/m2e-wtp/web-resources/&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;em&gt;target/m2e-wtp/web-resources/index.html&lt;/em&gt; now references the minified versions of the resources&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;div class="imageblock"&gt;
-      &lt;div class="content"&gt;
-      &lt;img alt="minified resources"/&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="sect2"&gt;
-      &lt;h3 id="deploy-the-application-on-wildfly"&gt;&lt;a rel="nofollow" class="anchor" href="#deploy-the-application-on-wildfly"&gt;&lt;/a&gt;Deploy the application on WildFly&lt;/h3&gt;
-      &lt;div class="ulist"&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;Right click on your project and select &lt;strong&gt;Run As &amp;gt; Run on Server …​&lt;/strong&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;Create a new Wildfly Server if necessary, pointing at your locally installed server&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;Once the server is created and deployed, a browser window should open :&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;div class="imageblock"&gt;
-      &lt;div class="content"&gt;
-      &lt;img alt="deployed application1"/&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;If you’re on a desktop, modify the color of the &lt;strong&gt;h1&lt;/strong&gt; class in &lt;em&gt;src/main/webapp/css/d.screen.css&lt;/em&gt; and save. This will trigger &lt;strong&gt;wro4j-maven-plugin:run&lt;/strong&gt; which will regenerate the minified version under &lt;em&gt;target/m2e-wtp/web-resources/css/d.screen.min.css&lt;/em&gt;, which in turn will be deployed on Wildfly by the server adapter.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Reloading the page (after the build is complete) will show the changes directly :&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="imageblock"&gt;
-      &lt;div class="content"&gt;
-      &lt;img alt="deployed application2"/&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Now you can switch back to using the regular, non-minified version by hitting &lt;strong&gt;Ctrl+Alt+P&lt;/strong&gt; in the workbench, unselect the &lt;em&gt;minify&lt;/em&gt; profile and wait for the build to complete.
-      After you reload your browser page, you’ll notice, if you look at the source page, the minified versions are not referenced anymore.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="admonitionblock note"&gt;
-      &lt;table&gt;
-      &lt;tr&gt;
-      &lt;td class="icon"&gt;
-      &lt;i class="fa icon-note" title="Note"&gt;&lt;/i&gt;
-      &lt;/td&gt;
-      &lt;td class="content"&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;The minified files still exist under &lt;em&gt;target/m2e-wtp/web-resources/&lt;/em&gt; and are deployed as such. They’re unused, so they’re harmless, but you’d need to perform a clean build to remove them, if necessary.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;/table&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class="sect1"&gt;
-      &lt;h2 id="conclusion"&gt;&lt;a rel="nofollow" class="anchor" href="#conclusion"&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
-      &lt;div class="sectionbody"&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Dealing with optimized resources in Eclipse is made really easy with a combination of the right tools. Just focus on code, save your work, see the changes instantly. &lt;strong&gt;WRO4J&lt;/strong&gt; and &lt;strong&gt;wro4j-maven-plugin&lt;/strong&gt; can give you much more than what we just saw here (resource aggregation, obfuscation, less processing …​). Hopefully you’ll want to give it a try after reading this article, and if you do, don’t forget to give us your feedback.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Issues with m2e-wro4j can be opened at &lt;a rel="nofollow" target="_blank" href="https://github.com/jbosstools/m2e-wro4j/issues" class="bare"&gt;https://github.com/jbosstools/m2e-wro4j/issues&lt;/a&gt;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Issues with the Maven Profile Manager can be opened at :&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="ulist"&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;a rel="nofollow" target="_blank" href="https://issues.jboss.org/browse/JBIDE/component/12312576" class="bare"&gt;https://issues.jboss.org/browse/JBIDE/component/12312576&lt;/a&gt; for the JBoss Tools version&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;As always, for all your WRO4J or wro4j-maven-plugin specific issues, I strongly encourage you to :&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="ulist"&gt;
-      &lt;ul&gt;
-      &lt;li&gt;
-      &lt;p&gt;read the WRO4J getting started page and the &lt;a rel="nofollow" target="_blank" href="https://code.google.com/p/wro4j/wiki/MavenPlugin"&gt;Maven plugin documentation&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;ask the &lt;a rel="nofollow" target="_blank" href="http://groups.google.com/group/wro4j"&gt;google group&lt;/a&gt; directly&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Have fun!&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="paragraph"&gt;
-      &lt;p&gt;Fred Bricon
-      &lt;a rel="nofollow" target="_blank" href="https://twitter.com/fbricon" class="bare"&gt;https://twitter.com/fbricon&lt;/a&gt;&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/idAtCvxWxYU" height="1" width="1" alt=""/&gt;</description>
-         <author>fbricon</author>
-         <guid isPermaLink="false">http://tools.jboss.org/blog/2014-04-17-web-resource-optimization-and-profiles.html</guid>
-         <pubDate>Thu, 17 Apr 2014 00:00:00 +0000</pubDate>
-      <feedburner:origLink>http://tools.jboss.org/blog/2014-04-17-web-resource-optimization-and-profiles.html</feedburner:origLink></item>
-      <item>
          <title>jboss.org/tools is dead, long live tools.jboss.org!</title>
          <link>http://feedproxy.google.com/~r/jbossbuzz/~3/Yw9hTKNplj8/jbossorgtools-is-dead-long-live-toolsjbossorg</link>
          <description>&lt;div class="jive-rendered-content"&gt;&lt;p&gt;We have moved this blog to our new website at &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://tools.jboss.org/"&gt;http://tools.jboss.org&lt;/a&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;We will keep this blog for historical entries - but all new blogging will happen at &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://tools.jboss.org/blog"&gt;tools.jboss.org/blog&lt;/a&gt;&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;All old urls should continue to work - if you find some broken let us know!&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;See more about this new site at our &lt;a rel="nofollow" class="jive-link-external-small" target="_blank" href="http://tools.jboss.org/blog/2014-04-11-jbossorg-is-dead-long-live-tools.html"&gt;first new entry&lt;/a&gt;.&lt;/p&gt;&lt;p style="min-height:8pt;height:8pt;padding:0px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Have fun!&lt;/p&gt;&lt;/div&gt;&lt;img/&gt;&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/Yw9hTKNplj8" height="1" width="1" alt=""/&gt;</description>
@@ -8997,4 +8882,4 @@ Petals Studio was also the pretext to start using <a rel="nofollow" target="_bla
          </media:content>
       <feedburner:origLink>https://mickaelistria.wordpress.com/2012/01/31/goodbye-petalslink-hello-jbossred-hat/</feedburner:origLink></item>
    </channel>
-</rss><!-- fe1.yql.bf1.yahoo.com compressed/chunked Thu Apr 16 08:47:39 UTC 2015 -->
+</rss><!-- fe8.yql.bf1.yahoo.com compressed/chunked Fri Apr 17 16:08:27 UTC 2015 -->

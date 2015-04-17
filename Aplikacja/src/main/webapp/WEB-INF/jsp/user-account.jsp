@@ -5,7 +5,7 @@
 
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  New Comment
+  New Blog
 </button>
 
 <form:form commandName="blog" cssClass="form-horizontal blogForm">
@@ -15,7 +15,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">New Comment</h4>
+        <h4 class="modal-title" id="myModalLabel">New Blog</h4>
       </div>
       <div class="modal-body">
         	<div class="form-group">
@@ -26,7 +26,7 @@
 				</div>
 	  		</div>
 	  	 	<div class="form-group">
-				<label for="name" class="col-sm-2 control-label">Comment:</label>
+				<label for="name" class="col-sm-2 control-label">URL:</label>
 				<div class="col-sm-10">
 				<form:input path="url" cssClass="form-control" />
 				<form:errors path="url" />
@@ -62,7 +62,7 @@ $(document).ready(function(){
 					},
 					url: {
 						required : true,
-						minlength :1
+						url : true
 					}
 
 				},
@@ -91,7 +91,7 @@ $(document).ready(function(){
  	<h1>${blog.name}</h1>
 	<p>
 	
-	<a href="<spring:url value="/blog/remove/${blog.id}.html" />" class="btn btn-danger triggerRemove">remove comment</a>
+	<a href="<spring:url value="/blog/remove/${blog.id}.html" />" class="btn btn-danger triggerRemove">remove blog</a>
 	
 	${blog.url}</p>
 	<table class="table table-bordered table-hover table-striped">
@@ -121,7 +121,7 @@ $(document).ready(function(){
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Remove Comment</h4>
+        <h4 class="modal-title" id="myModalLabel">Remove Blog</h4>
       </div>
       <div class="modal-body">
         Really remove?

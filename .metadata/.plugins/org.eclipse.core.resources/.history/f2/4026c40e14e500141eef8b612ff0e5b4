@@ -1,0 +1,11 @@
+package daw.projekt.annotation;
+
+public @interface UniqueUsername {
+
+	
+	@Target({ METHOD, FIELD, ANNOTATION_TYPE, CONSTRUCTOR, PARAMETER })
+	@Retention(RUNTIME)
+	@Documented
+	@Constraint(validatedBy = { })
+	
+}
