@@ -1,12 +1,18 @@
 package daw.projekt.entity;
 
+
+
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.Lob;
 import javax.persistence.ManyToOne;
+
+import org.hibernate.annotations.Type;
 
 @Entity
 public class Item {
@@ -17,14 +23,20 @@ public class Item {
 
 	private String name;
 
+	@Column(length=1000)
 	private String title;
 	
+	@Lob
+	@Type(type="org.hibernate.type.StringClobType")
+	@Column(length=Integer.MAX_VALUE)
 	private String description;
 
 	private String url;
 
+	@Column(name = "published_date")
 	private Date publishedDate;
 
+	@Column(length=1000)
 	private String link;
 	
 	@ManyToOne

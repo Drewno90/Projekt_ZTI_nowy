@@ -97,15 +97,23 @@ $(document).ready(function(){
 	<table class="table table-bordered table-hover table-striped">
 		
 			<tr>
-				<th>Title</th>
-				<th>Link</th>
+				<th>date</th>
+				<th>item</th>
 			</tr>
 		
 		<tbody>
 			<c:forEach items="${blog.items }" var="item">
 				<tr>
-					<td>${item.title }</td>
-					<td>${item.link }</td>
+					<td>${item.publishedDate }</td>
+					<td>
+						<strong>
+							<a href="<c:out value="${item.link }" />" target="_blank">
+								<c:out value="${item.title }"/>
+							</a>
+						</strong>
+						<br />
+						${item.description }
+					</td>
 				</tr>
 			</c:forEach>
 			</tbody>

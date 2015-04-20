@@ -2,12 +2,15 @@ package daw.projekt.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
+
+
 
 import daw.projekt.entity.Blog;
 import daw.projekt.entity.Item;
@@ -39,7 +42,6 @@ public class UserService {
 		}
 
 		public User findOne(int id) {
-			// TODO Auto-generated method stub
 			return userRepository.findOne(id);
 		}
 		@Transactional
