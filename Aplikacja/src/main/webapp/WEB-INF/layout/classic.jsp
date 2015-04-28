@@ -63,9 +63,6 @@
 						<li><a href='<spring:url value="/kontakt.html" />'>kontakt</a></li>
 						<li><a href='<spring:url value="/trzy.html" />'>trzy</a></li>
 						<li><a href='<spring:url value="/cztery.html" />'>cztery</a></li>
-					<li class="${param.page == 'chatroom' ? 'active' : ''}"><a href="<c:url value="/chatroom.html" />">New Chatroom</a></li>
-					<li class="${param.page == 'list' ? 'active' : ''}"><a href="<c:url value="/chatroom/list.html" />">Chatroom List</a></li>
-					<li class="${param.page == 'about' ? 'active' : ''}"><a href="<c:url value="/about.html" />">About</a></li>
 					</ul>
 
 				</div>

@@ -30,7 +30,6 @@
 
 	<bean class="org.springframework.orm.jpa.JpaTransactionManager"
 		id="transactionManager">
-		<property name="entityManagerFactory" ref="emf" />
 		<property name="dataSource" ref="dataSource" />
 	</bean>
 
@@ -47,9 +46,4 @@
 	<beans profile="prod">
 		<import resource="database-prod.xml" />
 	</beans>
-	
-
-
-
-
 </beans>
